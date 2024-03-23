@@ -124,8 +124,9 @@ app.get("/cobrancas", async (req, res) => {
   res.send(cobData);
 });
 
-app.post("/webhooks", (req, resp) => {
+app.post("/webhook(/pix)?", (req, resp) => {
   console.log(req.body);
+
   resp.send("200");
 });
 
