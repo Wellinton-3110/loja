@@ -62,7 +62,7 @@ app.get("/", async function (req, res) {
       nome: "GABY AMOR <3",
     },
     valor: {
-      original: "100.00",
+      original: "0.10",
     },
     chave: "28e6754a-9be0-4c76-8943-78d62aa68d79",
     solicitacaoPagador: "Cobrança dos serviços prestados.",
