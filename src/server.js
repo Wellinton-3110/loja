@@ -4,7 +4,7 @@ const { json } = require("body-parser");
 const app = express();
 const bodyParser = require("body-parser");
 app.use(json());
-app.use(bodyParser.json());
+app.user(bodyParser.json());
 
 app.set("view engine", "ejs");
 app.set("views", "src/views");
