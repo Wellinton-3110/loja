@@ -127,7 +127,8 @@ app.get("/cobrancas", async (req, res) => {
 });
 
 app.post("/webhook(/pix)?", (req, resp) => {
-  console.log(req.body);
+  console.log("aqui seus dados pix :D");
+  console.log(req.body.pix);
 
   resp.send("200");
 });
