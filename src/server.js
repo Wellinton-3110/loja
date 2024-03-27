@@ -5,6 +5,8 @@ const app = express();
 const bodyParser = require("body-parser");
 app.use(json());
 app.use(bodyParser.json());
+const cors = require("cors");
+app.use(cors());
 
 app.set("view engine", "ejs");
 app.set("views", "src/views");
